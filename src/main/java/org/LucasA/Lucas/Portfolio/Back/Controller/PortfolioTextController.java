@@ -15,30 +15,30 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/api/PortfolioText")
+@RequestMapping("/api")
 public class PortfolioTextController {
     
     @Autowired
     private IPortfolioTextService portfolioTextService;
     
-    @DeleteMapping(value = "/Delete")
+    @DeleteMapping(value = "/PortfolioText/Delete")
     public ResponseEntity<Boolean> DeletePortfolioTextType (@RequestParam int id){
         portfolioTextService.DeletePortfolioText(id);
         return new ResponseEntity<>(true,HttpStatus.ACCEPTED);
     }
     
-    @PostMapping(value = "/Add")
+    @PostMapping(value = "/PortfolioText/Add")
     public ResponseEntity<Boolean> AddCredential (@RequestBody PortfolioText port){
         portfolioTextService.AddPortfolioText(port);
         return new ResponseEntity<>(true,HttpStatus.ACCEPTED);
     }    
     
-    @GetMapping("/GetAll")
+    @GetMapping("/getData/PortfolioText/GetAll")
     public ResponseEntity<List<PortfolioText>> GetPortfolioText (){
         return new ResponseEntity<>(portfolioTextService.GetPortfolioText(),HttpStatus.OK);
     }    
     
-    @GetMapping("/GetByTypeId")
+    @GetMapping("/getData/PortfolioText/GetByTypeId")
     public ResponseEntity<List<PortfolioText>> GetPortfolioTextByType(@RequestParam int id){
         return new ResponseEntity<>(portfolioTextService.GetPortfolioTextByType(id),HttpStatus.OK);
     }
