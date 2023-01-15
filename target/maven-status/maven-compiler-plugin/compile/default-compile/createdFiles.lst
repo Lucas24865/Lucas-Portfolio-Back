@@ -11,6 +11,7 @@ org\LucasA\Lucas\Portfolio\Back\Service\JwtService.class
 org\LucasA\Lucas\Portfolio\Back\Service\AuthenticationService.class
 org\LucasA\Lucas\Portfolio\Back\Model\RegisterRequest$RegisterRequestBuilder.class
 org\LucasA\Lucas\Portfolio\Back\Repository\CredentialsRepository.class
+org\LucasA\Lucas\Portfolio\Back\LucasPortfolioBackApplication$1.class
 org\LucasA\Lucas\Portfolio\Back\Model\AuthenticationResponse.class
 org\LucasA\Lucas\Portfolio\Back\Config\ApplicationConfig.class
 org\LucasA\Lucas\Portfolio\Back\Model\CredentialsRegister$CredentialsRegisterBuilder.class
