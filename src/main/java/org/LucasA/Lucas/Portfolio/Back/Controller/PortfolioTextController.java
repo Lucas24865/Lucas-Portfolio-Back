@@ -28,6 +28,7 @@ public class PortfolioTextController {
         return new ResponseEntity<>(true,HttpStatus.ACCEPTED);
     }
     
+    @CrossOrigin
     @PostMapping(value = "/PortfolioText/Add")
     public ResponseEntity<Boolean> AddCredential (@RequestBody PortfolioText port){
         portfolioTextService.AddPortfolioText(port);
