@@ -4,6 +4,7 @@ org\LucasA\Lucas\Portfolio\Back\Service\PortfolioTextTypeService.class
 org\LucasA\Lucas\Portfolio\Back\Model\PortfolioText.class
 org\LucasA\Lucas\Portfolio\Back\Config\JwtAuthenticationFilter.class
 org\LucasA\Lucas\Portfolio\Back\Model\RegisterRequest.class
+org\LucasA\Lucas\Portfolio\Back\WebConfig.class
 org\LucasA\Lucas\Portfolio\Back\Service\ICredentialsService.class
 org\LucasA\Lucas\Portfolio\Back\Service\PortfolioTextService.class
 org\LucasA\Lucas\Portfolio\Back\Config\SecurityConfiguration.class
@@ -11,7 +12,6 @@ org\LucasA\Lucas\Portfolio\Back\Service\JwtService.class
 org\LucasA\Lucas\Portfolio\Back\Service\AuthenticationService.class
 org\LucasA\Lucas\Portfolio\Back\Model\RegisterRequest$RegisterRequestBuilder.class
 org\LucasA\Lucas\Portfolio\Back\Repository\CredentialsRepository.class
-org\LucasA\Lucas\Portfolio\Back\LucasPortfolioBackApplication$1.class
 org\LucasA\Lucas\Portfolio\Back\Model\AuthenticationResponse.class
 org\LucasA\Lucas\Portfolio\Back\Config\ApplicationConfig.class
 org\LucasA\Lucas\Portfolio\Back\Model\CredentialsRegister$CredentialsRegisterBuilder.class

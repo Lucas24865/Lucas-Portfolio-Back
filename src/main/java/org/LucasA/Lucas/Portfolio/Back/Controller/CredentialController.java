@@ -17,7 +17,7 @@ public class CredentialController {
 
     @Autowired
     private AuthenticationService service;
-
+    
     @PostMapping("/check")
     public ResponseEntity<AuthenticationResponse> CheckCredential(@RequestBody RegisterRequest request) {
         return ResponseEntity.ok(service.authenticate(request));
